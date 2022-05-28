@@ -14,7 +14,7 @@ import java.util.List;
 
 @Controller
 public class MVCController {
-    private final NE4JDB base = new NE4JDB("bolt://localhost:7687","neo4j","1234");
+    private final NE4JDB base = new NE4JDB("bolt://54.175.190.191:7687","neo4j","parcels-rebound-lubricant");
     private PersonDTO USER;
     @GetMapping("")
     public ModelAndView root() {
